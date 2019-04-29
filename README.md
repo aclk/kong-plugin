@@ -29,10 +29,12 @@ $ docker exec -it {kong container id} sh
 
 查看插件
 ```
-$ ls /etc/kong/plugins`
+$ ls /etc/kong/plugins
 ```
 查看kong环境
 ```
+$ env
+
 KONG_PROXY_LISTEN=0.0.0.0:8000
 KONG_VERSION=1.1.2
 HOSTNAME=ea5308cf67b2
